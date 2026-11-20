@@ -1382,4 +1382,3 @@ elfldr und kstuff gehören in die gleiche Stufe, weil elfldr allein nichts bewir
 Wo die 99 % jetzt stehen
 Neu abgedeckt: manipulierte Payload-Datei (Pin), Stick-Ausfall (Redundanz + Hashvergleich beider Sticks), Auto-Update während der Prozedur (Sinkhole), falsche Payload-Reihenfolge (Lane-Nummerierung + Anleitung auf dem Stick), fehlende Datei (Audit-Gate, arm bricht ab).
 
-Offen bleibt genau ein Punkt: ob dein Payload-Satz die Offsets für 14.22 kennt. Das Manifest prüft keine Versionskompatibilität der Binaries — dafür müsste jemand die Build-Nummern in den Payloads gegenprüfen. Wenn du mir sagst, welche Dateien du hast, kann ich die known_good_from-Liste im Manifest entsprechend eng ziehen, statt sie pauschal auf 14.22 zu setzen.
